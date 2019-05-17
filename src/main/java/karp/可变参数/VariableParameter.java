@@ -9,6 +9,7 @@ public class VariableParameter {
     public static void main(String[] args) {
         System.out.println( add(10,19));
         System.out.println(add(1,2,3,4,5,6,7,8,9));
+        System.out.println("------------------------------------");
     }
     //...代表可变参数
     private  static   int add(int origin,int ...args)
@@ -18,5 +19,7 @@ public class VariableParameter {
             sum+=arg;
         }
         return  sum;
+
+
     }
 }

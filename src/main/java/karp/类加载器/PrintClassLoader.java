@@ -9,4 +9,13 @@ public class PrintClassLoader {
     public PrintClassLoader() {
         System.out.println("classLoader is " +this.getClass().getClassLoader());
     }
+
+    public  static  void test()
+    {
+        System.out.println("---------test---------------");
+    }
+    public  static  void  app()
+    {
+        System.out.println("------------app---------------");
+    }
 }
