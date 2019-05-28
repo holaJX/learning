@@ -67,5 +67,8 @@ public class ListTest {
                 System.out.println(p.toString());
             }
         }
+
+        System.out.println("");
+
     }
 }
